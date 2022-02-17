@@ -7,11 +7,13 @@ namespace voting
         private string Name { get; set; }
         private string NameParty { get; set; }
 
-        public Candidate(){
+        public Candidate()
+        {
 
         }
 
-        public Candidate(int id, string name, string nameParty){
+        public Candidate(int id, string name, string nameParty)
+        {
             this.Id = id;
             this.Name = name;
             this.NameParty = nameParty;
@@ -28,5 +30,5 @@ namespace voting
             return allInformation.ToString();
         }
     }
-    
+
 }
